@@ -1,0 +1,108 @@
+#services h6 {
+  color: #999999;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#services h2 {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+}
+
+#services p {
+  font-family: "Quicksand", sans-serif;
+  color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+#services p span {
+  color: #000;
+  font-weight: bold;
+}
+
+#services .col-lg-4:first-of-type {
+  padding-left: 0;
+}
+#services .col-lg-4.last {
+  padding-right: 0;
+}
+
+#services .col-lg-4 .services-card {
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 30px;
+}
+
+#services .col-lg-4 .services-card p {
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+#services .col-lg-4 .services-card.fst i {
+  color: #09c;
+}
+
+#services .services-card.fst {
+  border-bottom: 2px solid #09c;
+}
+
+#services .col-lg-4 .services-card.snd i {
+  color: #ec5453;
+}
+
+#services .services-card.snd {
+  border-bottom: 2px solid #ec5453;
+}
+
+#services .col-lg-4 .services-card.trd i {
+  color: #f9bf3f;
+}
+
+#services .services-card.trd {
+  border-bottom: 2px solid #f9bf3f;
+}
+
+#services .col-lg-4 .services-card .poly-svg {
+  width: 100px;
+}
+
+#services .col-lg-4 .services-card.fth i {
+  color: #a84cb8;
+}
+
+#services .services-card.fth {
+  border-bottom: 2px solid #a84cb8;
+}
+
+#services .count {
+  background-image: url("../../assets/images/cover_bg_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#services .count .overlay {
+  background-color: #00000080;
+  height: 100%;
+}
+
+#services .count .overlay h2 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+#services .count .overlay p {
+  margin-bottom: 30px;
+  color: #e1e1e1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  #services .col-lg-4 {
+    padding: 0;
+    margin: 10px 0;
+  }
+}

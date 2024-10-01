@@ -1,0 +1,161 @@
+#skills h6 {
+  color: #999999;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#skills h2 {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+}
+
+#skills p {
+  font-family: "Quicksand", sans-serif;
+  color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+#skills p span {
+  color: #000;
+  font-weight: bold;
+}
+
+#skills .text-of-bar .percentage {
+  font-size: 14px;
+}
+
+#skills .bar {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: #e2e2e2;
+}
+
+#skills .bar::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 6px;
+}
+
+#skills .bar::before {
+  content: "";
+  position: absolute;
+  left: 74%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#skills .text-of-bar.blue-colors {
+  width: 77%;
+}
+#skills .blue-color {
+  color: #2c98f0;
+}
+#skills .bar.blue-bg-color::after,
+#skills .bar.blue-bg-color::before {
+  background-color: #2c98f0;
+}
+#skills .bar.blue-bg-color::after {
+  width: 75%;
+}
+#skills .bar.blue-bg-color::before {
+  content: "";
+  left: 74%;
+}
+
+#skills .text-of-bar.red-colors {
+  width: 62%;
+}
+#skills .red-color {
+  color: #ec5453;
+}
+#skills .bar.red-bg-color::after,
+#skills .bar.red-bg-color::before {
+  background-color: #ec5453;
+}
+#skills .bar.red-bg-color::after {
+  width: 60%;
+}
+#skills .bar.red-bg-color::before {
+  content: "";
+  left: 59%;
+}
+
+#skills .text-of-bar.yellow-colors {
+  width: 87%;
+}
+#skills .yellow-color {
+  color: #f9bf3f;
+}
+#skills .bar.yellow-bg-color::after,
+#skills .bar.yellow-bg-color::before {
+  background-color: #f9bf3f;
+}
+#skills .bar.yellow-bg-color::after {
+  width: 85%;
+}
+#skills .bar.yellow-bg-color::before {
+  content: "";
+  left: 84%;
+}
+
+#skills .text-of-bar.purple-colors {
+  width: 92%;
+}
+#skills .purple-color {
+  color: #a84cb8;
+}
+#skills .bar.purple-bg-color::after,
+#skills .bar.purple-bg-color::before {
+  background-color: #a84cb8;
+}
+#skills .bar.purple-bg-color::after {
+  width: 90%;
+}
+#skills .bar.purple-bg-color::before {
+  content: "";
+  left: 89%;
+}
+
+#skills .text-of-bar.green-colors {
+  width: 72%;
+}
+#skills .green-color {
+  color: #2fa499;
+}
+#skills .bar.green-bg-color::after,
+#skills .bar.green-bg-color::before {
+  background-color: #2fa499;
+}
+#skills .bar.green-bg-color::after {
+  width: 70%;
+}
+#skills .bar.green-bg-color::before {
+  content: "";
+  left: 69%;
+}
+
+#skills .text-of-bar.blue2-colors {
+  width: 82%;
+}
+#skills .blue2-color {
+  color: #4054b2;
+}
+#skills .bar.blue2-bg-color::after,
+#skills .bar.blue2-bg-color::before {
+  background-color: #4054b2;
+}
+#skills .bar.blue2-bg-color::after {
+  width: 80%;
+}
+#skills .bar.blue2-bg-color::before {
+  content: "";
+  left: 79%;
+}

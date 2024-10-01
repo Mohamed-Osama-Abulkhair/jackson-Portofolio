@@ -1,0 +1,91 @@
+#about h6 {
+  color: #999999;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#about h2 {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+}
+
+#about p {
+  font-family: "Quicksand", sans-serif;
+  color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+#about p span {
+  color: #000;
+  font-weight: bold;
+}
+
+#about .col-lg-3:first-of-type {
+  padding-left: 0;
+}
+#about .col-lg-3.last {
+  padding-right: 0;
+}
+
+#about .col-lg-3 .about-card {
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 30px;
+}
+
+#about .col-lg-3 .about-card p {
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+#about .col-lg-3 .about-card.fst i {
+  color: #09c;
+}
+
+#about .about-card.fst {
+  border-bottom: 2px solid #09c;
+}
+
+#about .col-lg-3 .about-card.snd i {
+  color: #ec5453;
+}
+
+#about .about-card.snd {
+  border-bottom: 2px solid #ec5453;
+}
+
+#about .col-lg-3 .about-card.trd i {
+  color: #f9bf3f;
+}
+
+#about .about-card.trd {
+  border-bottom: 2px solid #f9bf3f;
+}
+
+#about .col-lg-3 .about-card.fth i {
+  color: #a84cb8;
+}
+
+#about .about-card.fth {
+  border-bottom: 2px solid #a84cb8;
+}
+
+#about .hire {
+  background-color: #f9bf3f;
+  padding: 30px 20px;
+}
+
+#about .hire h2 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  #about .col-lg-3 {
+    padding: 0;
+    margin: 10px 0;
+  }
+}

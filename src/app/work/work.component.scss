@@ -1,0 +1,55 @@
+#work h6 {
+  color: #999999;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#work h2 {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+}
+
+#work p {
+  font-family: "Quicksand", sans-serif;
+  color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+#work p span {
+  color: #000;
+  font-weight: bold;
+}
+
+#work .work-card:hover .overlay {
+  opacity: 1 !important;
+  cursor: pointer;
+  background-color: #2c98f0;
+}
+
+#work .work-card .overlay .first-para {
+  position: absolute;
+  bottom: 100%;
+}
+
+#work .work-card .overlay .sec-para {
+  color: #c0e0fb;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+}
+
+#work .work-card:hover div .first-para {
+  bottom: 80%;
+}
+
+#work .work-card:hover div .sec-para {
+  top: 20%;
+}
+
+#work .work-card .overlay span{
+  font-size: 12px;
+  background-color: #96CCF8;
+}
